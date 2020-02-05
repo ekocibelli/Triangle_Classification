@@ -6,7 +6,8 @@ Project Description: Improved classifyTriangle function
 
 
 def classifyTriangle(a, b, c):
-
+        """Function triangle_classification has three sides of a triangle as parameters and classifies the triangle if it is
+         equilateral, scalene or isosceles and whether it is right triangle as well"""
     try:
         """Parameters should be numbers, raises an exception if not so"""
         a = float(a)
