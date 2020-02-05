@@ -35,11 +35,4 @@ def classifyTriangle(a, b, c):
                     return "Scalene"  # otherwise, triange is a scalene
             else:
                 return 'NotATriangle'  # it is not a triangle if sides are <= 0
-
-
-def main():
-    print(classifyTriangle(200, 200, 201))
-
-
-if __name__ == '__main__':
-    main()
+       
